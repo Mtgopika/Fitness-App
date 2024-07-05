@@ -1,0 +1,122 @@
+.background-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/start.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* To create space between input and recommended containers */
+  max-width: 1500px;
+  width:600px;
+  height: 400px; /* Set maximum width for the container */
+}
+
+.input-container,
+.recommended-container {
+  border: 1px solid #fafbfb;
+  padding: 40px;
+  flex: 1; 
+  width: 45%;
+}
+
+.input-container {
+  margin-right: 0px;
+}
+
+.recommended-container {
+  margin-left: 0px;
+}
+.input-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Make form fill the entire height of the container */
+}
+
+
+
+.recommended-container ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.recommended-container ul li {
+  margin-bottom: 20px; /* Increase the margin between list items */
+  text-align: center; /* Center list items */
+  font-size: 18px; /* Increase the font size of list items */
+}
+
+.recommended-container h2 {
+  text-align: center; /* Center the heading */
+}
+
+
+h1 {
+  font-size: 24px;
+  color: #07021e;
+}
+
+h2 {
+  font-size: 20px;
+  color: #07021e;
+}
+.input-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Make form fill the entire height of the container */
+}
+
+.recommended-container ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.recommended-container ul li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.recommended-container h2 {
+  text-align: center; /* Center the heading */
+}
+
+.input-container label {
+  margin-bottom: 10px; /* Add space below each label */
+}
+
+.input-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px; /* Set a maximum width for better layout on larger screens */
+  font-size: 16px;
+  margin-bottom: 10px; /* Add space below each select input */
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.input-container button:hover {
+  background-color: #0056b3; /* Darken the background color on hover */
+}

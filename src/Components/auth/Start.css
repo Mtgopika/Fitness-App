@@ -1,0 +1,95 @@
+/* Start.css */
+
+.start-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/start.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.logo {
+  max-width: 80px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #07021e;
+  font-size: 24px;
+  background-color: transparent;
+  margin: 0;
+}
+
+.signout-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #07021e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signout-btn:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  color: #07021e;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: transparent; /* Align h2 to the left */
+}
+h3 {
+  color: #07021e;
+  font-size: 25px; /* Adjust the font size as needed */
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 30px;
+  background-color: transparent;
+  
+  
+}
+h4 {
+  color: #07021e;
+  font-size: 25px; /* Adjust the font size as needed */
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 30px;
+  background-color: transparent;
+  
+  
+}
+
+.get-started-link {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #07021e;
+  color: #f0f0f7;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  text-align: left; /* Align link to the left */
+}
+
+.get-started-link:hover {
+  background-color: #218838;
+}

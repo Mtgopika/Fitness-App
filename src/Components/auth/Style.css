@@ -1,0 +1,108 @@
+/* Style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ebeef1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.sign-in-container,.sign-up-container {
+  width: 80%;
+  height:120%; /* Adjusted height to 80% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px; /* Adjusted margin */
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.sign-in-container .video-container,
+.sign-in-container .login-form,.sign-up-container.video-container,
+.sign-up-container .login-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120%;
+}
+
+.sign-in-container .video-container video, 
+  .sign-up-container .video-container video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.sign-in-container .login-form .content,
+.sign-up-container .login-form .content {
+  width: 90%;
+  max-width: 400px;
+}
+
+.sign-in-container .login-form .content h1,.sign-up-container .login-form .content h1 {
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 3px solid rgb(233, 62, 91);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.login-form .content input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.login-form .content button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(233, 62, 91);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-form .content button:hover {
+  background-color: rgba(233, 62, 91, 0.8);
+}
+
+.login-form .content p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-form .content p button {
+  background: none;
+  border: none;
+  color: rgb(233, 62, 91);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-form .content p button:hover {
+  color: rgba(233, 62, 91, 0.8);
+}
+
